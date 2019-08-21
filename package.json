@@ -1,7 +1,10 @@
 {
   "name": "colingoodale",
   "version": "1.0.0",
-  "description": "",
+  "engines": {
+    "node": "12.8.1"
+  },
+  "description": "Personal portfolio",
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.19.0",
