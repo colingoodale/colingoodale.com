@@ -4,9 +4,9 @@ const nodemailer = require("nodemailer");
 const xoauth2 = require('xoauth2');
 
 module.exports = function (app) {
-    // app.get("/api/request", function (req, res) {
-    //     res.json("resquests");
-    // });
+    app.get("/api/request", function (req, res) {
+        res.json("resquests");
+    });
 
     // app.post('/api/send', function (req, res) {
     //     //Step1
