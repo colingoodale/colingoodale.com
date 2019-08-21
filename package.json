@@ -2,7 +2,8 @@
   "name": "colingoodale",
   "version": "1.0.0",
   "engines": {
-    "node": "12.8.1"
+    "node": "12.8.1",
+    "npm": "6.10.2"
   },
   "description": "Personal portfolio",
   "main": "server.js",
