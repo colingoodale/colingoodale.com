@@ -28,10 +28,44 @@
 			<div class="content__subtitle">Full-Stack Developer</div>
 		</div>
 		<div id="content-2" class="content content--switch">
-			<h2 class="content__title">Contact</h2>
-			<div class="content__subtitle">312-989-5904</div>
-			<div class="content__subtitle">colingoodale@gmail.com</div>
-			<div class="content__subtitle">Please reach out for any contract or employment inquiries.</div>
+			<div class="formBox">
+				<form method="POST" action="/api/send">
+					<div class="form-row">
+						<div class="form-column">
+							<div class="inputBox ">
+								<input type="text" id="first-name" placeholder="First Name"
+									onfocus="this.placeholder = ''" class="input">
+							</div>
+							<div class="inputBox">
+								<input type="text" id="last-name" placeholder="Last Name"
+									onfocus="this.placeholder = ''" class="input">
+							</div>
+						</div>
+						<div class="form-column">
+							<div class="inputBox">
+								<input type="text" id="email" placeholder="Email" onfocus="this.placeholder = ''"
+									class="input">
+							</div>
+							<div class="inputBox">
+								<input type="text" id="phone-number" placeholder="Mobile Number"
+									onfocus="this.placeholder = ''" class="input">
+							</div>
+						</div>
+					</div>
+
+					<div class="form-row">
+						<div class="inputBox" id="messageBox">
+							<textarea id="message" placeholder="Message" onfocus="this.placeholder=''"
+								class="input"></textarea>
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="col-sm-12">
+							<input type="submit" id="submit" class="button">
+						</div>
+					</div>
+				</form>
+			</div>
 		</div>
 		<div id="content-3" class="content content--switch">
 			<h2 class="content__title">Sandbox</h2>
