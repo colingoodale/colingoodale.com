@@ -20,7 +20,7 @@
 			<nav class="demos">
 				<a href="https://github.com/colingoodale" class="github">github</a>
 			</nav>
-			<button class="menu-trigger">+ Menu</button>
+			<button class="menu-trigger" id="menu-trigs">+ Menu</button>
 		</div>
 		<div id="content-1" class="content content--switch content--switch-current">
 			<img class="headshot" src="img/12439159_1704068046471680_575808761720615875_n.jpg" />
@@ -250,6 +250,7 @@
 			console.log(emailInfo);
 			$.post('/api/send', emailInfo);
 			alert("Your Request Was Sent");
+			$("#menu-trigs").trigger("click");
 		}
 		$(document).on("click", "#submit", emailRequest);
 
