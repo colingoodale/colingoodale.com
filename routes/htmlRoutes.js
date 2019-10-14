@@ -6,7 +6,7 @@ module.exports = function (app) {
         res.sendFile(path.join(__dirname, "/index"));
     });
     app.get("/picture", function (req, res) {
-        res.sendFile(path.join(__dirname, "../public/img/websiteimage.png"))
+        res.sendFile(path.join(__dirname, "../public/img/websiteimage.jpg"))
     })
 
 };
